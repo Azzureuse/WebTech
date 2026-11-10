@@ -1,0 +1,733 @@
+commit 99cf8d5fca01bab105d417f11871168b76d7ec99
+Author:     Azzureuse <cyrusskewakeo@gmail.com>
+AuthorDate: 2026-10-08 04:40:12 +0000
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-08 04:40:12 +0000
+
+    save
+
+diff --git a/WebTech/HTML-Lab/emmet-laboratory/03-navigation.html b/WebTech/HTML-Lab/emmet-laboratory/03-navigation.html
+new file mode 100644
+index 0000000..c83bded
+--- /dev/null
++++ b/WebTech/HTML-Lab/emmet-laboratory/03-navigation.html
+@@ -0,0 +1,37 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <ul>
++        <li class="item1"></li>
++        <li class="item2"></li>
++        <li class="item3"></li>
++        <li class="item4"></li>
++        <li class="item5"></li>
++    </ul>
++
++    <ul>
++        <li>Menu 1</li>
++        <li>Menu 2</li>
++        <li>Menu 3</li>
++        <li>Menu 4</li>
++        <li>Menu 5</li>
++    </ul>
++
++    <nav>
++        <li>Home
++            <li>About
++                <li>Services
++                    <li>Projects
++                        <li>Contact</li>
++                    </li>
++                </li>
++            </li>
++        </li>
++    </nav>
++</body>
++</html>
+\ No newline at end of file
+
+commit 35941d2a3612c4394023567186f5f6d96c3bf00b
+Author:     Azzureuse <cyrusskewakeo@gmail.com>
+AuthorDate: 2026-10-08 04:28:35 +0000
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-08 04:28:35 +0000
+
+    save
+
+diff --git a/WebTech/HTML-Lab/emmet-laboratory/Part 5.html b/WebTech/HTML-Lab/emmet-laboratory/Part 5.html
+new file mode 100644
+index 0000000..05c6aa2
+--- /dev/null
++++ b/WebTech/HTML-Lab/emmet-laboratory/Part 5.html	
+@@ -0,0 +1,16 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++        <h1>Web Technologies</h1>
++        <p>Welcome to my webpage.</p>
++        <h1>My Web Development Journey</h1>
++        <p>I am learning HTML, CSS, Javascript, and web development.</p>
++    
++</body>
++</html>
+\ No newline at end of file
+
+commit abd6b00b752c739c1d501f7bf992347b44eb031c
+Author:     Azzureuse <cyrusskewakeo@gmail.com>
+AuthorDate: 2026-10-08 04:22:49 +0000
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-08 04:22:49 +0000
+
+    save
+
+diff --git a/WebTech/HTML-Lab/emmet-laboratory/04-Operators.html b/WebTech/HTML-Lab/emmet-laboratory/04-Operators.html
+new file mode 100644
+index 0000000..d816b44
+--- /dev/null
++++ b/WebTech/HTML-Lab/emmet-laboratory/04-Operators.html
+@@ -0,0 +1,55 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=ul, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <ul>
++        <li></li>
++    </ul>
++
++    <nav>
++        <ul>
++            <lis></lis>
++        </ul>
++    </nav>
++
++    <nav>
++        <ul>
++            <lis></lis>
++            <lis></lis>
++            <lis></lis>
++            <lis></lis>
++            <lis></lis>
++        </ul>
++    </nav>
++
++    <h1></h1>
++    <p></p>
++
++    <h1></h1>
++    <h2></h2>
++    <p></p>
++    <p></p>
++
++    <li></li>
++    <li></li>
++    <li></li>
++    <li></li>
++    <li></li>
++
++    <div></div>
++    <div></div>
++    <div></div>
++
++    <p></p>
++    <p></p>
++    <p></p>
++    <p></p>
++    <p></p>
++
++    
++</body>
++</html>
+\ No newline at end of file
+
+commit 2f8af2813aa889282c29125f6365bd9cbb49e2e9
+Author:     Azzureuse <cyrusskewakeo@gmail.com>
+AuthorDate: 2026-10-08 04:18:04 +0000
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-08 04:18:04 +0000
+
+    save
+
+diff --git a/WebTech/HTML-Lab/emmet-laboratory/01-basic.html b/WebTech/HTML-Lab/emmet-laboratory/01-basic.html
+index 369b596..05e229f 100644
+--- a/WebTech/HTML-Lab/emmet-laboratory/01-basic.html
++++ b/WebTech/HTML-Lab/emmet-laboratory/01-basic.html
+@@ -6,11 +6,79 @@
+     <title>Document</title>
+ </head>
+ <body>
+-    <h1>Heading 1</h1>
+-    <h2>Heading 2</h2>
+-    <p>Paragraph</p>
+-    <div>Division/Container</div>
+-    <span>Inline container</span>
+-    <header>Header</header>
++
++    <h1>
++        <h2>
++            <p>
++                <div>
++                    <header>
++                        <nav>
++                            <main>
++                                <footer></footer>
++                            </main>
++                        </nav>
++                    </header>
++                </div>
++            </p>
++            <p>
++                <div>
++                    <header>
++                        <nav>
++                            <main>
++                                <footer></footer>
++                            </main>
++                        </nav>
++                    </header>
++                </div>
++            </p>
++            <p>
++                <div>
++                    <header>
++                        <nav>
++                            <main>
++                                <footer></footer>
++                            </main>
++                        </nav>
++                    </header>
++                </div>
++            </p>
++        </h2>
++        <h2>
++            <p>
++                <div>
++                    <header>
++                        <nav>
++                            <main>
++                                <footer></footer>
++                            </main>
++                        </nav>
++                    </header>
++                </div>
++            </p>
++            <p>
++                <div>
++                    <header>
++                        <nav>
++                            <main>
++                                <footer></footer>
++                            </main>
++                        </nav>
++                    </header>
++                </div>
++            </p>
++            <p>
++                <div>
++                    <header>
++                        <nav>
++                            <main>
++                                <footer></footer>
++                            </main>
++                        </nav>
++                    </header>
++                </div>
++            </p>
++        </h2>
++    </h1>
++
+ </body>
+ </html>
+\ No newline at end of file
+diff --git a/WebTech/HTML-Lab/emmet-laboratory/02-classess-ids.html b/WebTech/HTML-Lab/emmet-laboratory/02-classess-ids.html
+new file mode 100644
+index 0000000..9bb2b83
+--- /dev/null
++++ b/WebTech/HTML-Lab/emmet-laboratory/02-classess-ids.html
+@@ -0,0 +1,32 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++
++    <header>
++        <div class="site-header"></div>
++    </header>
++
++    <nav>
++        <div id="main-nav"></div>
++    </nav>
++
++    <main>
++        <div class="content"></div>
++    </main>
++
++    <secttion>
++        <div id="about"></div>
++    </secttion>
++
++    <footer>
++        <div class="site-footer"></div>
++    </footer>
++
++
++</body>
++</html>
+\ No newline at end of file
+
+commit cfff262481b22a03ff9afc61bda38d2a2ce3c2fb
+Merge: b3fb412 5ab6e58
+Author:     Azzureuse <cyrusskewakeo@gmail.com>
+AuthorDate: 2026-10-08 04:04:45 +0000
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-08 04:04:45 +0000
+
+    Merge branch 'main' of https://github.com/Azzureuse/WebTech
+
+commit b3fb4125be42559afee8e14fbf8a7405c11eac30
+Author:     Azzureuse <cyrusskewakeo@gmail.com>
+AuthorDate: 2026-10-08 03:57:17 +0000
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-08 03:57:17 +0000
+
+    Save
+
+diff --git a/WebTech/HTML-Lab/emmet-laboratory/01-basic.html b/WebTech/HTML-Lab/emmet-laboratory/01-basic.html
+new file mode 100644
+index 0000000..369b596
+--- /dev/null
++++ b/WebTech/HTML-Lab/emmet-laboratory/01-basic.html
+@@ -0,0 +1,16 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <h1>Heading 1</h1>
++    <h2>Heading 2</h2>
++    <p>Paragraph</p>
++    <div>Division/Container</div>
++    <span>Inline container</span>
++    <header>Header</header>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/WebTech/HTML-Lab/emmet-laboratory/index.html b/WebTech/HTML-Lab/emmet-laboratory/index.html
+new file mode 100644
+index 0000000..d01f779
+--- /dev/null
++++ b/WebTech/HTML-Lab/emmet-laboratory/index.html
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++</body>
++</html>
+\ No newline at end of file
+
+commit 26a946ce263fd5fe60aea4ccee1c6cdb5c867724
+Author:     Azzureuse <cyrusskewakeo@gmail.com>
+AuthorDate: 2026-09-26 04:36:22 +0000
+Commit:     Azzureuse <cyrusskewakeo@gmail.com>
+CommitDate: 2026-09-26 04:36:22 +0000
+
+    9/26
+
+diff --git a/.vscode/settings.json b/.vscode/settings.json
+new file mode 100644
+index 0000000..6f3a291
+--- /dev/null
++++ b/.vscode/settings.json
+@@ -0,0 +1,3 @@
++{
++    "liveServer.settings.port": 5501
++}
+\ No newline at end of file
+diff --git a/WebTech/HTML-Lab/index.html b/WebTech/HTML-Lab/index.html
+index e69de29..c30cc74 100644
+--- a/WebTech/HTML-Lab/index.html
++++ b/WebTech/HTML-Lab/index.html
+@@ -0,0 +1,26 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>My First Web Page</title>
++</head>
++<body>
++
++    <h1>About Me</h1>
++
++    <h2>Kewakeo, Cyruss G.</h2>
++    <p><strong>Program:</strong> Bachelor of Science in Information Technology</p>
++
++    <h3>Introduction</h3>
++    <p>Hello! I am a passionate and driven student looking forward to exploring the world of technology. I love solving puzzles, learning how complex systems work behind the scenes, and collaborating with others on creative digital projects.</p>
++
++    <h3>My Hobbies</h3>
++    <ul>
++        <li><strong>Coding:</strong> Building simple web applications and experimenting with new programming languages.</li>
++        <li><strong>Watching:</strong> Watching my favourite show.</li>
++        <li><strong>Reading:</strong> Diving into sci-fi novels and tech blogs to stay inspired.</li>
++    </ul>
++
++</body>
++</html>
+diff --git a/WebTech/HTML-Lab/links.html b/WebTech/HTML-Lab/links.html
+new file mode 100644
+index 0000000..fc53a9a
+--- /dev/null
++++ b/WebTech/HTML-Lab/links.html
+@@ -0,0 +1,21 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++
++    <a href="https://www.google.com/">Google</a>
++    <br>
++    <a href="https://www.youtube.com/">Youtube</a>
++    <br>
++    <a href="https://github.com/">GitHub</a>
++    <br>
++    
++    <a href="https://www.instructure.com/canvas/login" target="_blank">Canvas</a>
++
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/WebTech/index.html b/WebTech/index.html
+deleted file mode 100644
+index e69de29..0000000
+
+commit 5ab6e5813bb848b09b9fac09051bab3e75b58e3a
+Author:     Azzureuse <cyrusskewakeo@gmail.com>
+AuthorDate: 2026-09-22 12:33:02 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 12:33:02 +0800
+
+    Add files via upload
+
+diff --git a/WebTech/HTML-Lab/lists.html b/WebTech/HTML-Lab/lists.html
+new file mode 100644
+index 0000000..d7c9163
+--- /dev/null
++++ b/WebTech/HTML-Lab/lists.html
+@@ -0,0 +1,54 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>HTML Lists Activity</title>
++</head>
++<body>
++
++        <h2>A. Favorite Foods</h2>
++        <ul>
++            <li>Pizza</li>
++            <li>Burger</li>
++            <li>Ramen</li>
++            <li>Fried Chicken</li>
++            <li>Pasta</li>
++        </ul>
++
++
++    <hr>
++
++        <h2>B. Top 5 Programming Languages</h2>
++        <ol>
++            <li>JavaScript</li>
++            <li>Python</li>
++            <li>Java</li>
++            <li>PHP</li>
++            <li>C#</li>
++        </ol>
++
++<ul>
++  <li>Computer Science
++    <ul>
++      <li>Programming
++        <ol>
++          <li>Java</li>
++          <li>Python</li>
++          <li>PHP</li>
++        </ol>
++      </li>
++      
++      <li>Web Development
++        <ol>
++          <li>HTML</li>
++          <li>CSS</li>
++          <li>JavaScript</li>
++        </ol>
++      </li>
++    </ul>
++  </li>
++</ul>
++
++</body>
++</html>
+\ No newline at end of file
+
+commit f8eefb0c130deacdb99ad07d11b98373fbae7ae8
+Author:     Azzureuse <cyrusskewakeo@gmail.com>
+AuthorDate: 2026-09-22 12:32:37 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 12:32:37 +0800
+
+    Delete WebTech/HTML-Lab/lists.html
+
+diff --git a/WebTech/HTML-Lab/lists.html b/WebTech/HTML-Lab/lists.html
+deleted file mode 100644
+index 6b7f2d9..0000000
+--- a/WebTech/HTML-Lab/lists.html
++++ /dev/null
+@@ -1,32 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-    <meta charset="UTF-8">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>HTML Lists Activity</title>
+-</head>
+-<body>
+-
+-        <h2>A. Favorite Foods</h2>
+-        <ul>
+-            <li>Pizza</li>
+-            <li>Burger</li>
+-            <li>Ramen</li>
+-            <li>Fried Chicken</li>
+-            <li>Pasta</li>
+-        </ul>
+-
+-
+-    <hr>
+-
+-        <h2>B. Top 5 Programming Languages</h2>
+-        <ol>
+-            <li>JavaScript</li>
+-            <li>Python</li>
+-            <li>Java</li>
+-            <li>PHP</li>
+-            <li>C#</li>
+-        </ol>
+-        
+-</body>
+-</html>
+\ No newline at end of file
+
+commit a2090f85e87816e26130ddebf80d653ca9e23f10
+Author:     Azzureuse <cyrusskewakeo@gmail.com>
+AuthorDate: 2026-09-22 12:28:46 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 12:28:46 +0800
+
+    Add files via upload
+
+diff --git a/WebTech/HTML-Lab/lists.html b/WebTech/HTML-Lab/lists.html
+new file mode 100644
+index 0000000..6b7f2d9
+--- /dev/null
++++ b/WebTech/HTML-Lab/lists.html
+@@ -0,0 +1,32 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>HTML Lists Activity</title>
++</head>
++<body>
++
++        <h2>A. Favorite Foods</h2>
++        <ul>
++            <li>Pizza</li>
++            <li>Burger</li>
++            <li>Ramen</li>
++            <li>Fried Chicken</li>
++            <li>Pasta</li>
++        </ul>
++
++
++    <hr>
++
++        <h2>B. Top 5 Programming Languages</h2>
++        <ol>
++            <li>JavaScript</li>
++            <li>Python</li>
++            <li>Java</li>
++            <li>PHP</li>
++            <li>C#</li>
++        </ol>
++        
++</body>
++</html>
+\ No newline at end of file
+
+commit f59e2c6b5a665498b3e467b5193a4e60f7f02f32
+Author:     Azzureuse <cyrusskewakeo@gmail.com>
+AuthorDate: 2026-09-22 12:25:19 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 12:25:19 +0800
+
+    Delete WebTech/index.html
+
+diff --git a/WebTech/index.html b/WebTech/index.html
+deleted file mode 100644
+index e69de29..0000000
+
+commit ee8add147b494ed679a912ec1d759445c2a5da69
+Author:     Azzureuse <cyrusskewakeo@gmail.com>
+AuthorDate: 2026-09-22 12:17:08 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 12:17:08 +0800
+
+    Add files via upload
+
+diff --git a/WebTech/HTML-Lab/about.html b/WebTech/HTML-Lab/about.html
+new file mode 100644
+index 0000000..e69de29
+diff --git a/WebTech/HTML-Lab/contact.html b/WebTech/HTML-Lab/contact.html
+new file mode 100644
+index 0000000..e69de29
+diff --git a/WebTech/HTML-Lab/formatting.html b/WebTech/HTML-Lab/formatting.html
+new file mode 100644
+index 0000000..3c2bc57
+--- /dev/null
++++ b/WebTech/HTML-Lab/formatting.html
+@@ -0,0 +1,75 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Lab Activity 2: HTML Text Formatting</title>
++</head>
++<body>
++
++    <h1>LAB ACTIVITY 2: HTML Text Formatting</h1>
++
++    <section>
++        <h2>HTML Text Formatting Tags Explained</h2>
++
++        <p>
++            This sentence uses <b>bold text</b> to draw attention to specific words without adding extra importance.
++        </p>
++
++        <p>
++            This sentence uses <strong>strong text</strong> to indicate that this content is important and urgent.
++        </p>
++
++        <p>
++            This sentence uses <i>italicized text</i> for an alternative voice, foreign word, or technical term.
++        </p>
++
++        <p>
++            This sentence uses <em>emphasized text</em> to add stress emphasis that alters sentence meaning.
++        </p>
++
++        <p>
++            This sentence uses <u>underlined text</u> to mark text that should stand out visually.
++        </p>
++
++        <p>
++            This sentence uses <mark>highlighted text</mark> to show text marked for reference.
++        </p>
++
++        <p>
++            This sentence uses <small>smaller text</small> for fine print, legal disclaimers, or side comments.
++        </p>
++
++        <p>
++            This sentence shows <del>deleted text</del> that has been removed from the document.
++        </p>
++
++        <p>
++            This sentence shows <ins>inserted text</ins> that has been added to the document.
++        </p>
++
++        <p>
++            This sentence includes <sub>subscript text</sub> which renders lower than the normal text baseline.
++        </p>
++
++        <p>
++            This sentence includes <sup>superscript text</sup> which renders higher than the normal text baseline.
++        </p>
++    </section>
++
++    <hr>
++
++    <section>
++        <h2>Chemical & Mathematical Expressions</h2>
++
++        <p>
++            Chemical formula for water: H<sub>2</sub>O
++        </p>
++
++        <p>
++            Einstein's mass-energy equivalence equation: E = mc<sup>2</sup>
++        </p>
++    </section>
++
++</body>
++</html>
+\ No newline at end of file
+
+commit 6e65bccadaa908fd8b57562419f298df72c2ad60
+Author:     Azzureuse <cyrusskewakeo@gmail.com>
+AuthorDate: 2026-09-22 11:52:28 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 11:52:28 +0800
+
+    Add files via upload
+
+diff --git a/WebTech/HTML-Lab/index.html b/WebTech/HTML-Lab/index.html
+new file mode 100644
+index 0000000..e69de29
+
+commit a46e577e44db61d7007e55507f89a16d51ed3049
+Author:     Azzureuse <cyrusskewakeo@gmail.com>
+AuthorDate: 2026-09-22 11:48:41 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 11:48:41 +0800
+
+    Add files via upload
+
+diff --git a/WebTech/index.html b/WebTech/index.html
+new file mode 100644
+index 0000000..e69de29
