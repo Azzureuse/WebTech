@@ -4,20 +4,32 @@ body {
 
 h1 {
     color: navy;
+
+    text-transform: uppercase;
 }
 
 #page-title {
     text-align: center;
-    color: aqua;
 }
 
 .card {
     background-color: #eeeeee;
     padding: 15px;
     margin: 10px;
-    border: 10px
+
+    border: 2px solid #cccccc;
 }
 
 .card p {
-    color: blue
+    color: #444444;
+}
+
+.card .highlight-text {
+    color: #d9534f;
+    font-weight: bold;
+}
+
+h2, h3 {
+    color: #2c3e50;
+    margin-top: 0;
 }
